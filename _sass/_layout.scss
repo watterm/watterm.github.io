@@ -8,6 +8,9 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    background: $background-dark;
+    text-color: $orange;
 }
 
 .site-title {
@@ -16,10 +19,13 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
+    font-variant: small-caps;
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $orange;
+    }
+    &:hover {
+        color: $orange-light;
     }
 }
 
@@ -32,12 +38,21 @@
     }
 
     .page-link {
-        color: $text-color;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        font-size: $small-font-size;
+
+        color: $grey-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
+        }
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
         }
     }
 
@@ -94,6 +109,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: $background-dark;
 }
 
 .footer-heading {
@@ -112,6 +128,13 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+
+    a {
+        color: $grey-color;
+    }
+    a:hover {
+        color: #ffffff;
+    }
 }
 
 .footer-col {
@@ -163,6 +186,8 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background: $background-color;
+    min-height: 30em;
 }
 
 .page-heading {

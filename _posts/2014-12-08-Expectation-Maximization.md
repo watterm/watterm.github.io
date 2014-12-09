@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Expectation Maximization"
-date: 2014-12-04 14:46:01
+date: 2014-12-08 14:46:01
 comments: true
 ---
 As a first post, I'd like to summarize the Expectaction Maximization (EM) algorithm,

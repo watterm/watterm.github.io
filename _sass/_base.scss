@@ -19,7 +19,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background-color: $background-dark;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -35,7 +35,13 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-variant: small-caps;
+}
 
+h3 {
+    border-bottom: 1px solid $orange;
+}
 
 /**
  * Images
@@ -89,16 +95,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $orange;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: lighten($orange, 10%);
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($orange, 30%);
+        text-decoration: none;
     }
 }
 
@@ -108,11 +114,11 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $orange-grey;
+    border-left: 4px solid $orange;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
+    letter-spacing: -0.4px;
     font-style: italic;
 
     > :last-child {
@@ -128,9 +134,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $orange-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #fff5e1;
 }
 
 code {

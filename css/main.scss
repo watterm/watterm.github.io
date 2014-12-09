@@ -13,13 +13,23 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+//$text-color:       #111;
+//$background-color: #fdfdfd;
+$text-color:       #4B4D52;
+$background-color: #f6f6f6;
+$brand-color:      #a35e25;
 
-$grey-color:       #828282;
+$grey-color:       #bbbbbb;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$background-dark:  #2b2b2b;
+
+$dark-blue:        #0d0020;
+//$orange:           #de8642;
+$orange:           #e78535;
+$orange-light:     #ffa55d;
+$orange-grey:      #52473b;
 
 $on-palm:          600px;
 $on-laptop:        800px;
