@@ -8,3 +8,4 @@ github_username:  watterm
 
 # Build settings
 markdown: kramdown
+safe: true
