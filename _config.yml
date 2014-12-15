@@ -2,7 +2,7 @@
 title: Infinite Improbability
 email: manuelwatter@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "watterm.github.io" # the base hostname & protocol for your site
+url: "http://watterm.github.io" # the base hostname & protocol for your site
 github_username: watterm
 
 # Build settings
